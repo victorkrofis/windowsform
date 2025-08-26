@@ -1,0 +1,10 @@
+C:\Users\victor.soliveira21\source\repos\Picture Box\bin\Debug\Picture Box.exe.config
+C:\Users\victor.soliveira21\source\repos\Picture Box\bin\Debug\Picture Box.exe
+C:\Users\victor.soliveira21\source\repos\Picture Box\bin\Debug\Picture Box.pdb
+C:\Users\victor.soliveira21\source\repos\Picture Box\obj\Debug\Picture Box.csproj.AssemblyReference.cache
+C:\Users\victor.soliveira21\source\repos\Picture Box\obj\Debug\Picture_Box.frmPictureBox.resources
+C:\Users\victor.soliveira21\source\repos\Picture Box\obj\Debug\Picture_Box.Properties.Resources.resources
+C:\Users\victor.soliveira21\source\repos\Picture Box\obj\Debug\Picture Box.csproj.GenerateResource.cache
+C:\Users\victor.soliveira21\source\repos\Picture Box\obj\Debug\Picture Box.csproj.CoreCompileInputs.cache
+C:\Users\victor.soliveira21\source\repos\Picture Box\obj\Debug\Picture Box.exe
+C:\Users\victor.soliveira21\source\repos\Picture Box\obj\Debug\Picture Box.pdb
