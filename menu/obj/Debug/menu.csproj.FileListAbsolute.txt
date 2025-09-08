@@ -1,0 +1,12 @@
+C:\Users\victor.soliveira21\source\repos\menu\bin\Debug\menu.exe.config
+C:\Users\victor.soliveira21\source\repos\menu\bin\Debug\menu.exe
+C:\Users\victor.soliveira21\source\repos\menu\bin\Debug\menu.pdb
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.csproj.AssemblyReference.cache
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.Properties.Resources.resources
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.csproj.GenerateResource.cache
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.exe
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.pdb
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.FrmClientes.resources
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.FrmPrincipal.resources
+C:\Users\victor.soliveira21\source\repos\menu\obj\Debug\menu.frmProdutos.resources

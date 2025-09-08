@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|C:\\Users\\victor.soliveira21\\source\\repos\\menu\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|c:\\users\\victor.soliveira21\\source\\repos\\menu\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|C:\\Users\\victor.soliveira21\\source\\repos\\menu\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|solutionrelative:frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|C:\\Users\\victor.soliveira21\\source\\repos\\menu\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA1FCBFF-C3AD-4258-A94C-7EB4A3CE723F}|menu.csproj|solutionrelative:frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\FrmClientes.cs",
+              "RelativeDocumentMoniker": "FrmClientes.cs",
+              "ToolTip": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\FrmClientes.cs [Design]",
+              "RelativeToolTip": "FrmClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:35:39.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmProdutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\frmProdutos.cs",
+              "RelativeDocumentMoniker": "frmProdutos.cs",
+              "ToolTip": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\frmProdutos.cs [Design]",
+              "RelativeToolTip": "frmProdutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:30:43.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\FrmPrincipal.cs",
+              "RelativeToolTip": "FrmPrincipal.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T11:33:44.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\victor.soliveira21\\source\\repos\\menu\\FrmPrincipal.cs [Design]",
+              "RelativeToolTip": "FrmPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T11:25:05.131Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

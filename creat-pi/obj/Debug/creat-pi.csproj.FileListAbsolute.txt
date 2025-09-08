@@ -1,0 +1,10 @@
+C:\Users\victor.soliveira21\source\repos\creat-pi\bin\Debug\creat-pi.exe.config
+C:\Users\victor.soliveira21\source\repos\creat-pi\bin\Debug\creat-pi.exe
+C:\Users\victor.soliveira21\source\repos\creat-pi\bin\Debug\creat-pi.pdb
+C:\Users\victor.soliveira21\source\repos\creat-pi\obj\Debug\creat-pi.csproj.AssemblyReference.cache
+C:\Users\victor.soliveira21\source\repos\creat-pi\obj\Debug\creat_pi.Properties.Resources.resources
+C:\Users\victor.soliveira21\source\repos\creat-pi\obj\Debug\creat-pi.csproj.GenerateResource.cache
+C:\Users\victor.soliveira21\source\repos\creat-pi\obj\Debug\creat-pi.csproj.CoreCompileInputs.cache
+C:\Users\victor.soliveira21\source\repos\creat-pi\obj\Debug\creat-pi.exe
+C:\Users\victor.soliveira21\source\repos\creat-pi\obj\Debug\creat-pi.pdb
+C:\Users\victor.soliveira21\source\repos\creat-pi\obj\Debug\creat_pi.frmAdmin.resources
