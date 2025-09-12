@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroDeCliente));
             this.panelTopo = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.tbControl = new System.Windows.Forms.TabControl();
@@ -41,10 +42,11 @@
             this.txtNomeCompleto = new System.Windows.Forms.TextBox();
             this.lblNomeCompleto = new System.Windows.Forms.Label();
             this.tbConsulta = new System.Windows.Forms.TabPage();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.btnPesquisar = new System.Windows.Forms.Button();
             this.lstClientes = new System.Windows.Forms.ListView();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnNovoCliente = new System.Windows.Forms.Button();
             this.panelTopo.SuspendLayout();
             this.tbControl.SuspendLayout();
             this.tbCadastro.SuspendLayout();
@@ -80,7 +82,7 @@
             this.tbControl.Location = new System.Drawing.Point(12, 119);
             this.tbControl.Name = "tbControl";
             this.tbControl.SelectedIndex = 0;
-            this.tbControl.Size = new System.Drawing.Size(743, 240);
+            this.tbControl.Size = new System.Drawing.Size(743, 273);
             this.tbControl.TabIndex = 1;
             // 
             // tbCadastro
@@ -179,30 +181,21 @@
             this.tbConsulta.Location = new System.Drawing.Point(4, 29);
             this.tbConsulta.Name = "tbConsulta";
             this.tbConsulta.Padding = new System.Windows.Forms.Padding(3);
-            this.tbConsulta.Size = new System.Drawing.Size(735, 207);
+            this.tbConsulta.Size = new System.Drawing.Size(735, 240);
             this.tbConsulta.TabIndex = 1;
             this.tbConsulta.Text = "Consulta";
             this.tbConsulta.UseVisualStyleBackColor = true;
             // 
-            // btnSalvar
+            // lstClientes
             // 
-            this.btnSalvar.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnSalvar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(39, 365);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(119, 40);
-            this.btnSalvar.TabIndex = 2;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = false;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
-            // 
-            // txtBuscar
-            // 
-            this.txtBuscar.Location = new System.Drawing.Point(23, 22);
-            this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(219, 26);
-            this.txtBuscar.TabIndex = 0;
+            this.lstClientes.HideSelection = false;
+            this.lstClientes.Location = new System.Drawing.Point(23, 76);
+            this.lstClientes.MultiSelect = false;
+            this.lstClientes.Name = "lstClientes";
+            this.lstClientes.Size = new System.Drawing.Size(684, 158);
+            this.lstClientes.TabIndex = 2;
+            this.lstClientes.UseCompatibleStateImageBehavior = false;
+            this.lstClientes.SelectedIndexChanged += new System.EventHandler(this.lstClientes_SelectedIndexChanged);
             // 
             // btnPesquisar
             // 
@@ -216,20 +209,48 @@
             this.btnPesquisar.UseVisualStyleBackColor = false;
             this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
-            // lstClientes
+            // txtBuscar
             // 
-            this.lstClientes.HideSelection = false;
-            this.lstClientes.Location = new System.Drawing.Point(23, 76);
-            this.lstClientes.Name = "lstClientes";
-            this.lstClientes.Size = new System.Drawing.Size(684, 125);
-            this.lstClientes.TabIndex = 2;
-            this.lstClientes.UseCompatibleStateImageBehavior = false;
+            this.txtBuscar.Location = new System.Drawing.Point(23, 22);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(219, 26);
+            this.txtBuscar.TabIndex = 0;
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnSalvar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(250, 398);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(119, 40);
+            this.btnSalvar.TabIndex = 2;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
+            // btnNovoCliente
+            // 
+            this.btnNovoCliente.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnNovoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovoCliente.ForeColor = System.Drawing.Color.White;
+            this.btnNovoCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnNovoCliente.Image")));
+            this.btnNovoCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNovoCliente.Location = new System.Drawing.Point(39, 398);
+            this.btnNovoCliente.Name = "btnNovoCliente";
+            this.btnNovoCliente.Size = new System.Drawing.Size(156, 40);
+            this.btnNovoCliente.TabIndex = 3;
+            this.btnNovoCliente.Text = "Novo Cadastro";
+            this.btnNovoCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNovoCliente.UseVisualStyleBackColor = false;
+            this.btnNovoCliente.Click += new System.EventHandler(this.btnNovoCliente_Click);
             // 
             // frmCadastroDeCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNovoCliente);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.tbControl);
             this.Controls.Add(this.panelTopo);
@@ -266,6 +287,7 @@
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.ListView lstClientes;
+        private System.Windows.Forms.Button btnNovoCliente;
     }
 }
 
